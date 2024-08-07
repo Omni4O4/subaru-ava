@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/blue_ice",
+    "up": "minecraft:block/carved_pumpkin",
+    "north": "minecraft:block/bee_nest_front_honey",
+    "east": "minecraft:block/blue_stained_glass_pane_top",
+    "south": "minecraft:block/activator_rail_on",
+    "west": "minecraft:block/black_glazed_terracotta",
+    "particle": "minecraft:block/blue_ice"
+  },
+  "render_type": "solid"
+}

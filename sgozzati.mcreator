@@ -1,11 +1,30 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Capasquartatadiakira",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capasquartatadiakira",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sgozzati/models/block/capasquartatadiakira.json",
+          "src/main/resources/assets/sgozzati/blockstates/capasquartatadiakira.json",
+          "src/main/resources/assets/sgozzati/models/item/capasquartatadiakira.json",
+          "src/main/resources/data/sgozzati/loot_tables/blocks/capasquartatadiakira.json",
+          "src/main/java/net/mcreator/sgozzati/block/CapasquartatadiakiraBlock.java"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.sgozzati.capasquartatadiakira": "Capasquartatadiakira"
+    }
   },
   "foldersRoot": {
     "name": "~",
