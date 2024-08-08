@@ -4,25 +4,20 @@
  */
 package net.mcreator.sgozzati.init;
 
+import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
-import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.sgozzati.SgozzatiMod;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class SgozzatiModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, SgozzatiMod.MODID);
-
-	@SubscribeEvent
-	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
-			tabData.accept(SgozzatiModBlocks.CAPASQUARTATADIAKIRA.get().asItem());
-		}
-	}
+	public static final RegistryObject<CreativeModeTab> SGOZZATIPT_2 = REGISTRY.register("sgozzatipt_2",
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.sgozzati.sgozzatipt_2")).icon(() -> new ItemStack(SgozzatiModBlocks.CAPASQUARTATADIAKIRA.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(SgozzatiModBlocks.CAPASQUARTATADIAKIRA.get().asItem());
+			}).withSearchBar().build());
 }

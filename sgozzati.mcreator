@@ -15,6 +15,16 @@
           "src/main/java/net/mcreator/sgozzati/block/CapasquartatadiakiraBlock.java"
         ]
       }
+    },
+    {
+      "name": "Sgozzatipt2",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sgozzatipt_2",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -23,7 +33,8 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "block.sgozzati.capasquartatadiakira": "Capasquartatadiakira"
+      "block.sgozzati.capasquartatadiakira": "Capasquartatadiakira",
+      "item_group.sgozzati.sgozzatipt_2": "Sgozzati pt.2"
     }
   },
   "foldersRoot": {
@@ -41,7 +52,12 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "bettercombat",
+      "geckolib",
+      "playeranimator",
+      "cloth-config"
+    ],
     "currentGenerator": "forge-1.20.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.sgozzati"
