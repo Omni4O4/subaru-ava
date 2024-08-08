@@ -1,0 +1,61 @@
+{
+  "mod_elements": [
+    {
+      "name": "Capasquartatadiakira",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "capasquartatadiakira",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/sgozzati/models/block/capasquartatadiakira.json",
+          "src/main/resources/assets/sgozzati/blockstates/capasquartatadiakira.json",
+          "src/main/resources/assets/sgozzati/models/item/capasquartatadiakira.json",
+          "src/main/resources/data/sgozzati/loot_tables/blocks/capasquartatadiakira.json",
+          "src/main/java/net/mcreator/sgozzati/block/CapasquartatadiakiraBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Sgozzatipt2",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sgozzatipt_2",
+      "metadata": {
+        "files": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.sgozzati.capasquartatadiakira": "Capasquartatadiakira",
+      "item_group.sgozzati.sgozzatipt_2": "Sgozzati pt.2"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "sgozzati",
+    "modName": "Sgozzati",
+    "version": "1.0.0",
+    "author": "Utente, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.sgozzati"
+  },
+  "mcreatorVersion": 202400232117
+}
